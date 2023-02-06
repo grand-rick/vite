@@ -1,0 +1,12 @@
+.about {
+    padding: 75px;
+}
+
+.about-para {
+    margin-bottom: 175px;
+}
+
+.about-footer {
+    position: fixed;
+    bottom: 0;
+}

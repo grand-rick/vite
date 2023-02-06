@@ -1,0 +1,85 @@
+header {
+    margin-top: 125px;
+    margin-left: 210px;
+}
+
+a {
+    margin: 45px;
+    margin-left: 230px;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid black;
+    position: relative;
+    top: 45px;
+    transition-duration: .5s;
+
+    position: relative;
+    right: 19px
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.master-title {
+    padding-right: 665px;
+    display: block;
+    padding: 20px;
+    transition-duration: .5s;
+    margin-right: 480px;
+    border: 2px solid black;
+}
+
+.sub-title {
+    padding-right: 665px;
+    margin-right: 480px;
+}
+
+.master-title:hover {
+    color: white;
+    background-color: black;
+}
+
+.desc {
+    margin: 100px 208px;
+    border: 2px solid black;
+    padding: 20px;
+    transition-duration: .5s;
+}
+
+.desc:hover {
+    background-color: black;
+    color: white;
+}
+
+.compose-navigator {
+    background-color: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    transition-duration: .5s;
+
+    position: relative;
+    right: 22px;
+}
+
+.blog-navigator {
+    background-color: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    transition-duration: .5s;
+
+    position: relative;
+    left: -260px;
+}
+
+.compose-navigator:hover {
+    background-color: black;
+    color: white;
+}
+
+.blog-navigator:hover {
+    background-color: black;
+    color: white;
+}

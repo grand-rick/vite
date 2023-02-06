@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #AAE3E2;
+
+    position: relative;
+    right: 36px;
+}
+
+.footer-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #AAE3E2;
+
+    margin-top: 20px;
+}

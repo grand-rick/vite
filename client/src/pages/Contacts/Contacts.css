@@ -1,0 +1,35 @@
+.contact {
+    padding: 75px;
+    text-align: center;
+    margin-bottom: -60px;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social-title {
+    transition-duration: .5s;
+}
+
+.social-title:hover {
+    transform: translateX(5px) translateY(-6px);
+    cursor: default;
+}
+
+.id {
+    margin: 20px;
+    margin-inline: 465px;
+    padding: 20px;
+
+    border: 2px solid black;
+
+    transition-duration: .5s;
+}
+
+.id:hover {
+    background-color: black;
+    color: white;
+
+    cursor: pointer;
+}
