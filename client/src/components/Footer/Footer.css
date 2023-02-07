@@ -9,6 +9,15 @@
     right: 36px;
 }
 
+.footer>h3 {
+    transition-duration: .3s;
+}
+
+.footer>h3:hover {
+    transform: translateX(5px) translateY(-3px);
+    cursor: default;
+}
+
 .footer-container {
     width: 100%;
     text-align: center;
