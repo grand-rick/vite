@@ -1,11 +1,13 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import Navbar from '../../components/Navbar/Navbar'
 import './Blogs.css'
 
 const Blogs = () => {
 
     const [blogs, setBlogs] = useState([]);
+    const navigate = useNavigate();
 
     const fetchBlogs = async () => {
 
@@ -15,6 +17,7 @@ const Blogs = () => {
         } catch (error) {
             console.log(error);
         }
+
     }
 
     useEffect(() => {
@@ -33,7 +36,8 @@ const Blogs = () => {
             <br />
 
             <main>
-                <p>{blog.content}</p>
+                <p>{blog.content.substring(0, 100)}...</p>
+                <h3 onClick={() => navigate(`/blogs/${blog._id}`)} className='read-more'>Read More</h3>
             </main>
 
             <div className="author">
@@ -41,7 +45,6 @@ const Blogs = () => {
             </div>
         </div>
         ))}
-
     </>
     )
 }

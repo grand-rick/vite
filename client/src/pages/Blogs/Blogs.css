@@ -7,3 +7,18 @@
     margin-top: 10px;
     margin-right: 35px;
 }
+
+.read-more {
+    background-color: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    transition-duration: .5s;
+    margin-top: 10px;
+    width: 8%;
+}
+
+.read-more:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

@@ -22,7 +22,7 @@ const Compose = () => {
     })
 
     .then(res => {
-      if (res === true) navigate('/');
+      if (res === true) navigate('/blogs');
       else navigate('/blogs');
     })
   }

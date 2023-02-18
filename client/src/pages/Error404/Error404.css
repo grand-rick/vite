@@ -1,0 +1,28 @@
+.error {
+    padding: 30px;
+    margin: 165px;
+}
+
+.error>h3 {
+    margin-top: 30px;
+    position: relative;
+    animation: moveError;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes moveError {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: -7px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
