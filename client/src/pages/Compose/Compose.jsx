@@ -44,7 +44,7 @@ const Compose = () => {
             <br />
 
             <label>Author:</label><br />
-            <input onChange={e => setAuthor(e.target.value)} name='author' type="text" />
+            <input onChange={e => setAuthor(e.target.value)} name='author' type="text" autoComplete='off' />
 
             <br />
             <br />

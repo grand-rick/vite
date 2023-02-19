@@ -1,4 +1,4 @@
-import { Instagram, Phone } from '@mui/icons-material';
+import { Instagram, Phone, LinkedIn } from '@mui/icons-material';
 import React from 'react'
 import Footer from '../../components/Footer/Footer';
 import Navbar from '../../components/Navbar/Navbar';
@@ -23,10 +23,14 @@ const Contacts = () => {
               </div>
 
               <div className="id">
+                <LinkedIn /><br />
+                <h3>Tejas Nanoti</h3>
+              </div>
+
+              <div className="id">
                 <Phone /><br />
                 <h3>+91 8668324297</h3>
               </div>
-
             </div>
         </div>
 
